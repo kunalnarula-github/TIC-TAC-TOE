@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h1 id="heading">TIC TAC TOE</h1>
+
+    <!-- Background Video -->
+    <!-- <div class="video-background">
+        <div class="video-foreground">
+          <iframe src="https://www.youtube.com/embed/3D4A3sRINdg?controls=0&showinfo=0&rel=0&autoplay=1&loop=10" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div> -->
+    <video src="/0001-0120.mp4" autoplay muted loop></video>
+
+
+    <!-- Opening Screen -->
+    <div class="openingScreen" id="openingScreen">
+        <h1 id='selectGame'>Select Game Mode !</h1>
+        <button id="singleplayer">Singleplayer</button>
+        <button id="multiplayer">Multiplayer</button>
+    </div>
+
+    <!-- Symbol Selection -->
+    <div class="symbolselect" id="symbolselect" hidden>
+        <h1 id='selectSymbol'>Select Your Symbol !</h1>
+        <button id="x">X</button>
+        <button id="o">O</button>
+    </div>
+
+    <!-- Winning Screen -->
+    <div class="winningScreen" id="winningScreen" hidden>
+        <h1 id='win'>You Win !</h1>
+        <button id="playAgainWin" class="playAgain">Play Again</button>
+    </div>
+
+    <!-- Draw Screen -->
+    <div class="drawScreen" id="drawScreen" hidden>
+        <h1 id='draw'>Match Draw !</h1>
+        <button id="playAgainDraw" class="playAgain">Play Again</button>
+    </div>
+
+    <!-- Grid -->
+    <div id="grid" class="div">
+        <div class="items" id="grid1"></div>
+        <div class="items" id="grid2"></div>
+        <div class="items" id="grid3"></div>
+        <div class="items" id="grid4"></div>
+        <div class="items" id="grid5"></div>
+        <div class="items" id="grid6"></div>
+        <div class="items" id="grid7"></div>
+        <div class="items" id="grid8"></div>
+        <div class="items" id="grid9"></div>
+    </div>
+
+        <!-- Script -->
+        <script src="/script.js"></script>
+    </body>
+</html>
